@@ -1,0 +1,34 @@
+{
+  "name": "image-service",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Image service",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "node-dev src/app.js",
+    "inspect": "node --inspect=0.0.0.0:9229 src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CubixSystem/image-service.git"
+  },
+  "author": "Oleg Kurochkin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CubixSystem/image-service/issues"
+  },
+  "homepage": "https://github.com/CubixSystem/image-service#readme",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "request": "^2.87.0",
+    "sharp": "^0.20.3",
+    "validate.js": "^0.12.0"
+  },
+  "devDependencies": {
+    "node-dev": "^3.1.3"
+  }
+}
